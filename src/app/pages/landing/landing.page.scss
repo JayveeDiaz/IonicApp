@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+.bg{
+  --background: linear-gradient(to bottom, #FFB319, #FBFFB1, #FFB319);
+}
+
+.images{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.images img{
+  width: auto;
+  height: 282px;
+}
+
+.Title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.Title h1{
+  font-family: fantasy;
+  font-weight: 50;
+  font-size: 60px;
+  color: #000000;
+}
+
+.desc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  font-size: 14px;
+}
+
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  margin: 0%
+}
+
+.button .btn{
+  width: 286px;
+  background-color: white;
+  border: none;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  font-family: Tahoma, sans-serif;
+  font-weight: 800;
+}

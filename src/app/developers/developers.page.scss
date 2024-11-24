@@ -1,0 +1,48 @@
+.bg{
+    --background: #FCCF55;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.color{
+    color: black;
+}
+
+
+ion-title{
+    font-size: 24px;
+    margin-left: 50px;
+    color: black;
+    font-weight: 800;
+}
+
+img{
+    padding-top: 50px;
+    padding-left: 22%;
+}
+
+ion-card{
+    border-radius: 20px;
+}
+ion-card-header{
+    text-align: center;
+
+    ion-card-title{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    ion-card-subtitle{
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+ion-card-content{
+    padding-left: 60px;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+}

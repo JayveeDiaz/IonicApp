@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar class="bg">   
+    <ion-buttons>
+      <ion-menu-button menu="main-menu" class="color"> </ion-menu-button>
+      <ion-title>Products</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="food-list">
+    <app-food-card *ngFor="let food of foods" [item] = "food" (clicked)="goToDetailPage(food.id)"></app-food-card>
+  </div>
+</ion-content>

@@ -1,0 +1,92 @@
+.bg{
+    --background: #e6f700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.color{
+    color: rgb(0, 0, 0);
+}
+
+
+ion-title{
+    font-size: 24px;
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+ion-content{
+    --padding-top: auto;
+    --padding-end: auto;
+
+    .title{
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-bottom: 2rem;
+        margin-left: 75px;
+        padding-left: 1.6rem;
+    }
+
+    app-cart-item {
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically center align items */
+        width: 100%; /* Full width of the parent container */
+        padding: 10px 1rem; /* Padding for top/bottom and left/right */
+        
+    }
+
+    ion-item-sliding{
+        margin-bottom: 2rem;
+        overflow: hidden;
+
+        ion-item{
+            --padding-start:0;
+            --inner-padding-end: 0;
+            border-radius: 25px;
+        }
+
+        ion-item-options{
+            border: 2px solid #f3f3f3;
+            border-radius: 25px;
+            overflow: hidden;
+            background: #fff;
+
+            ion-item-option{
+                background:#fff;
+            }
+        }
+    }
+
+    .empty-cart{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #c7c7c7;
+
+        ion-icon{
+            font-size: 8rem;
+        }
+
+        p{
+            font-size: 1.8rem
+        }
+    }
+
+    app-button{
+        display: block;
+        padding-left: 1.6rem;
+
+        span{
+            margin-left: 10px;
+            font-size: 1.5rem;
+
+            sup{
+                font-weight: 400;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
