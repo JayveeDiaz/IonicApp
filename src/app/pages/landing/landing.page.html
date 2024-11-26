@@ -4,33 +4,15 @@
   </div>
 
   <div class="Title">
+
     <!-- Input fields for username/number and password -->
     <div class="input-fields">
-      <input type="text" id="username" placeholder="Number/Username" class="input-text" />
-      <input type="password" id="password" placeholder="Password" class="input-text" />
+      <input type="text" placeholder="Number/Username" class="input-text" />
+      <input type="password" placeholder="Password" class="input-text" />
     </div>
   </div>
 
   <div class="button">
-    <button class="btn" onclick="validateLogin()">Login</button>
+    <a routerLink="/home"><button class="btn">Login</button></a>
   </div>
 </ion-content>
-
-<script>
-  function validateLogin() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    // Hardcoded credentials
-    const validUsername = 'Anton';
-    const validPassword = '12345';
-
-    if (username === validUsername && password === validPassword) {
-      alert('Login successful!');
-      // Redirect or perform any action on successful login
-      window.location.href = '/home';
-    } else {
-      alert('Invalid username or password. Please try again.');
-    }
-  }
-</script>
