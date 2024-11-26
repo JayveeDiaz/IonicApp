@@ -11,9 +11,9 @@
 
 ion-title{
     font-size: 24px;
-    margin-left: 80px;
     color: rgb(0, 0, 0);
     font-weight: 800;
+    // margin-left: 25%;
 }
 
 ion-content{
@@ -78,6 +78,7 @@ ion-content{
     app-button{
         display: block;
         padding-left: 1.6rem;
+        padding-right: 1.6rem;
 
         span{
             margin-left: 10px;
