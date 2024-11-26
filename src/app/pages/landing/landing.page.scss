@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
-.bg{
+.bg {
   --background: linear-gradient(to bottom, #FFB319, #FBFFB1, #FFB319);
 }
 
-.images{
+.images {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,46 +12,53 @@
   margin-top: 70px;
 }
 
-.images img{
+.images img {
   width: auto;
   height: 282px;
 }
 
-.Title{
+.Title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* Added margin for spacing */
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Space between input fields */
+  width: 100%;
+}
+
+.input-fields .input-text {
+  width: 80%; /* Adjust width as needed */
+  max-width: 350px; /* Restrict maximum width */
+  padding: 15px;
+  border: 2px solid #FFB319;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.input-fields .input-text:focus {
+  border-color: #FBFFB1; /* Highlight effect on focus */
+}
+
+.button {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
-}
-
-.Title h1{
-  font-family: fantasy;
-  font-weight: 50;
-  font-size: 60px;
-  color: #000000;
-}
-
-.desc{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -25px;
-  font-size: 14px;
-}
-
-.button{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 90px;
+  margin-top: 40px;
   margin-bottom: 50px;
-  margin: 0%
 }
 
-.button .btn{
+.button .btn {
   width: 286px;
   background-color: white;
   border: none;
